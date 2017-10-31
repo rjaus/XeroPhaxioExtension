@@ -1,0 +1,21 @@
+{
+  "name": "Xero Phaxio",
+  "version": "1.0",
+  "description": "Fax Xero invoice with Phaxio",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "xero.png",
+    "default_title" : "Xero Phaxio",
+    "default_popup" : "popup.html"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "activeTab",
+    "tabs"
+  ],
+  "manifest_version": 2
+}

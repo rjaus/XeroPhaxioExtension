@@ -38,7 +38,8 @@ $(document).ready(function() {
         // Send the request via AJAX
         $.ajax({
             type: 'POST',
-            url: 'https://4ok3hn46ib.execute-api.us-east-1.amazonaws.com/prod/phaxio',
+            url: 'https://4ok3hn46ib.execute-api.us-east-1.amazonaws.com/prod/phaxio', // API Gateway Invoke URL (you will need to create your own gateway)
+            headers: { 'x-api-key': 'abcd_AnExampleOnlyYouWillNeedToCreateYourOwnGateway'}, // API Gateway API Key (can be optional)
             crossDomain: true,
             data: JSON.stringify(data),
             dataType: 'json',

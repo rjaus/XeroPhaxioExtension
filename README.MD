@@ -2,6 +2,7 @@ Chrome Extension for XeroPhaxio Lambda Sample Project
 ----
 
 See more details on the project here: https://github.com/rjaus/XeroPhaxio
+
 Or on the blog: https://medium.com/p/a954b62c0407
 
 This Chrome extension relies on your lambda function being exposed via an API Gateway.
